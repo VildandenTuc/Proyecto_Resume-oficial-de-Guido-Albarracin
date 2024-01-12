@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="
+    https://cdn.jsdelivr.net/npm/normalize-css@2.3.1/normalize.min.css
+    " rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--Iconos creados con Favicon.io-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">  
+    <!--Iconos creados con Favicon.io-->
+    <link rel="stylesheet" href="css\navbar.css">
+    <link rel="stylesheet" href="css\main.css">
+    <link rel="stylesheet" href="css\profile.css">
+    <link rel="stylesheet" href="css\skills.css">
+    <link rel="stylesheet" href="css\experiences.css">
+    <link rel="stylesheet" href="css\contact.css">
+    <script defer src="js\app.js"></script>
+    <title>Guido Alfredo Albarracín</title>
+</head>
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img height="50px" width="50px" src="img\foto_perfil_guido.png" alt="Imagen Guido Albarracín">
+                <div>
+                    Guido A. Albarracín<br>
+                    { <em>software developer</em> }
+                </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="img\menu-hamburger.svg" alt="Abrir menú">
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                    <img src="img\close-small.svg" alt="Cerrar menú">
+                </button>
+                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#languages">Idiomas</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+            <div class="profile-info">
+                <h1 class="profile-title">Hola, soy <br>Guido A. Albarracín</h1>
+                <p class="profile-details">
+                    Soy un Programador Universitario recibido en la Facultad de Ciencias Exactas de la Universidad Nacional de Tucumán, apasionado del desarrollo de software y los desafíos que presenta  el mundo actual con sus nuevas tecnologías y demandas de soluciones a medida.
+                </p>
+                <button class="profile-btn">
+                    Descargar CV
+                </button>
+            </div>
+            <span class="profile-img-section">
+                <img class="profile-img" src="img\foto_perfil_guido.png" alt="Mi foto">
+                <div class="profile-img-line">
+                </div>
+            </span>
+        </section>
+    </div>
+
+    <section class="experiences" id="experience">
+        <img src="img\wave.svg" alt="división" class="wave">
+        <div class="experiences-body">
+            <h2 class="experiences-title">Experiencia</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2015 - </div>
+                    <div class="experience-company">Instituto Privado Tucumán</div>
+                    <div class="experience-position">Profesor - Asesor tecnológico</div>
+                    <div class="experience-description">
+                        Profesor de Informática e Informática aplicada con orientación en programación. Asesoro sobre la implementación de nuevas tecnologías, la optimización de sistemas existentes, la selección de software o hardware, y otros aspectos relacionados con la tecnología en la institución educativa.
+                    </div>
+                </div>
+                <div class="experience experience-left">
+                    <div class="experience-date">2009 - </div>
+                    <div class="experience-company">Instituto Nicolás Avellaneda</div>
+                    <div class="experience-position">Profesor</div>
+                    <div class="experience-description">
+                        Profesor de Informática e Informática y los Sistemas de Información Contables.
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2010 - </div>
+                    <div class="experience-company">Colegio Almafuerte</div>
+                    <div class="experience-position">Profesor</div>
+                    <div class="experience-description">
+                        Profesor de Educación Tecnológica I.
+                    </div>
+                </div>
+                <div class="experience experience-left">
+                    <div class="experience-date">2011 - </div>
+                    <div class="experience-company">Colegio Giosué Carducci</div>
+                    <div class="experience-position">Profesor</div>
+                    <div class="experience-description">
+                        Profesor de Computación con orientación en programación.
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+            </div>
+        </div>
+        <img src="img\wave.svg" alt="división" class="wave wave-bottom">
+    </section>
+    
+    <div class="horizontal-padding vertical-padding">
+        <section class="skills" id="skills">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">JAVASCRIPT</li>
+                <li class="skills-skill">PYTHON</li>
+                <li class="skills-skill">C</li>
+                <li class="skills-skill">C++</li>
+                <li class="skills-skill">SQL</li>
+                <li class="skills-skill">VISUAL BASIC</li>
+            </ul>
+        </section>
+    </div>
+
+    <section class="experiences" id="languages">
+        <img src="img\wave.svg" alt="división" class="wave">
+        <div class="experiences-body">
+            <h2 class="experiences-title">Idiomas</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">Alemán - Deutsch <img src="img\alemania.png" width="24px" alt="idioma Alemán"></div>
+                    <div class="experience-company">B2 (MCER)</div>
+                    <div class="experience-position">Nivel intermedio alto</div>
+                    
+                </div>
+                <div class="experience experience-left">
+                    <div class="experience-date">Inglés - English <img src="img\reino-unido.png" width="24px" alt="idioma Alemán"> </div>
+                    <div class="experience-company">B2 (MCER)</div>
+                    <div class="experience-position">Nivel intermedio alto</div>
+                    
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">Español - Spanish <img src="img\argentina.png" width="24px" alt="idioma Alemán"></div>
+                    <div class="experience-company">Nativo</div>
+                    
+                </div>
+            </div>
+        </div>
+        <img src="img\wave.svg" alt="división" class="wave wave-bottom">
+    </section>
+
+    
+    <div class="horizontal-padding vertical-padding">
+        <section class="contact" id="contact">
+            <h2 class="contact-title">Contacto</h2>
+            <div class="contact-details">
+                <div class="contact-details-group">
+                    <p class="contact-label">Dirección:</p>
+                    <p class="contact-text">Tafí Viejo, Tucumán, Argentina</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-label">Email:</p>
+                    <p class="contact-text">profesoralbarracin@gmail.com</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-text">Deje su mensaje y con gusto le responderé</p>
+                </div>
+            </div>
+            <form class="contact-form" name="contact" netlify>
+                <div class="contact-form-group">
+                    <label for="name">Nombre</label>
+                    <input required type="text" name="name" id="name">
+                </div>
+                <div class="contact-form-group">
+                    <label for="email">Email</label>
+                    <input required type="email" name="email" id="email">
+                </div>
+                <div class="contact-form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea required name="message" id="message" rows="6"></textarea>
+                </div>
+                <button type="submit" class="contact-form-submit">Enviar</button>
+            </form>
+            <nav class="social">
+                <ul class="social-list">
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCwQ24m0WkfTBxfvRJZ_EqqQ">
+                            <img src="img\social\youtube.svg" alt="youtube channel">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/guido-alfredo-albarrac%C3%ADn-b8457966/">
+                            <img src="img\social\linkedin-in.svg" alt="linkedin profile">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/VildandenTuc">
+                            <img src="img\social\github.svg" alt="github profile">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+</body>
+</html>
